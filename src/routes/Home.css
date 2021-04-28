@@ -1,0 +1,52 @@
+body, html {
+    height: 100%;
+    background-color: #eff3f7;
+}
+
+.container {
+     height: 100%;
+     display: flex;
+     justify-content: center;
+}
+
+.loader {
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.movies {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.movies .movie{
+    width: 440px;
+    background-color: rgb(233, 235, 224);
+    margin: 10px;
+    display: flex;
+    padding-bottom: 70px;
+}
+.movie img {
+    max-width: 230px;
+    position: relative;
+}
+.movie_data {
+    padding: 5px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.movie_genres {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.movie_genres li{
+    margin-right: 10px;
+
+}

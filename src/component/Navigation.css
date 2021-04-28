@@ -1,0 +1,22 @@
+html body {
+    margin: 0;
+    padding: 0;
+}
+.nav {
+    display: flex;
+    flex-flow: row wrap;
+    height: 80px;
+    background-color: rgb(220, 226, 210);
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_logo {
+    margin: 5px;
+}
+.nav_menu {
+    display: flex;
+    flex: row wrap;
+    justify-content: space-between;
+    /* background-color: red; */
+    width: 20%;
+}

@@ -1,0 +1,10 @@
+a {
+    text-decoration: none;
+
+}
+a:link, a:visited {
+    color: black;
+}
+a:hover {
+    color: rgb(96, 96, 206);
+}
